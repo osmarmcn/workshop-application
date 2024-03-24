@@ -24,22 +24,33 @@ function add_carro(){
     
     `
     carro.innerHTML += info
+    
 
 }
 
 
+
+
 function exibir_form(tipo){
 
-    add = document.getElementById('adicionar-cliente')
+
+    add_cliente = document.getElementById("adicionar-cliente1")
     att_cliente = document.getElementById('att_cliente')
+        
 
-    if (tipo == '1'){
-        att_cliente.style.display = 'none'
-        add_cliente.style.display = 'block'
+    if (tipo == "1"){
+        add_cliente.style.display = "block"
+        att_cliente.style.display = "none"
 
-    }else if(tipo== '2'){
-        att_cliente.style.display = 'block'
-        add_cliente.style.display = 'none'
+    }else if(tipo == "2"){
+
+        att_cliente.style.display = "block"
+        add_cliente.style.display = "none"
+
+
+        
+
+       
     }
 
 

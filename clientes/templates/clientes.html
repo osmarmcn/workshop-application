@@ -11,17 +11,17 @@
     <div class="container">
         <div class="row">
 
-            <div onclick="exibir_form('1')" class="col-md card-dashboard">
+            <div class="col-md card-dashboard" onclick="exibir_form('1')">
                 <p class="text-card">Adicionar clientes</p>
             </div>
 
-            <div onclick="exibir_form('2')" class="col-md card-dashboard">
+            <div  class="col-md card-dashboard" onclick="exibir_form('2')">
                 <p class="text-card">Atualizar cliente</p>
             </div>
 
         </div>
 
-        <div id="adicionar-cliente" class="adicionar-cliente">
+        <div id="adicionar-cliente1" class="adicionar-cliente">
             <form action="{% url 'clientes' %}" method="POST">{% csrf_token %}
                 <div class="row">
                     <div class="col-md">
@@ -74,7 +74,7 @@
         </div>
 
         <div id="att_cliente">
-            
+            <h1>teste</h1>
         </div>
 
 
